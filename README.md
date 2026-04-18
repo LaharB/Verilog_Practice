@@ -9,7 +9,7 @@ This repository serves two primary purposes:
 
 ## 🛠️ Tools & Technologies
 * **Hardware Description Language:** Verilog
-* **Simulation, Verification & Schematics:** Siemens EDA QuestaSim
+* **Simulation, Verification & Schematics:** Siemens QuestaSim 10.7c
 
 ## 📁 Repository Structure
 Each module or daily challenge follows a clean directory structure:

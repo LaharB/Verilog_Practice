@@ -14,7 +14,7 @@ Software runs instructions sequentially in time - one after the other whereas Ha
 
 Two sample codes are written to understand the process of verilog coding - design and testbench for simulation
 
-<details><summary><b>Sample Code 1 : Adder</b></summary>
+<details><summary><b>Sample Code 1 : AND gate</b></summary>
 
 ### Design 
 

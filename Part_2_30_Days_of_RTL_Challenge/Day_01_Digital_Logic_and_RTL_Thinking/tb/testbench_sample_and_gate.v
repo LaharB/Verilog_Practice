@@ -1,4 +1,4 @@
-`include "../rtl/sample_adder.v"
+`include "../rtl/sample_and_gate.v"
 module tb_and_gate();
 
     reg a, b;

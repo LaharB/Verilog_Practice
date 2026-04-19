@@ -65,11 +65,11 @@ endmodule
 
 ### Simulation
 
-![alt text](docs/waveform_sample_adder.png)
+![alt text](docs/waveform_sample_and_gate.png)
 
 ### Schematic 
 
-![alt text](docs/schematic_sample_adder.png)
+![alt text](docs/schematic_sample_and_gate.png)
 
 </details>
 

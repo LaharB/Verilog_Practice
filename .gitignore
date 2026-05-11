@@ -25,6 +25,7 @@ transcript
 wlft*
 wave_sample_and_gate.do
 wave_sample_counter.do
+# wave.do
 
 # Ignore compilation databases and temporary files
 *.vstf

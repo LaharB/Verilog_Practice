@@ -7,7 +7,7 @@ This repository serves two primary purposes:
 1. **The 30-Day Challenge:** Documenting a chronological progression through digital logic, Verilog constructs, and structural/behavioral modeling.
 2. **Standard Component Library:** A reusable IP library containing 50 foundational digital design blocks (Adders, Multiplexers, FSMs, Counters).
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 * **Hardware Description Language:** Verilog
 * **Simulation, Verification & Schematics:** Siemens QuestaSim 10.7c
 

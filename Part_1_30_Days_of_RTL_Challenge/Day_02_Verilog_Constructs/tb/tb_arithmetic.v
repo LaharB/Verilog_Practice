@@ -9,5 +9,7 @@ module tb_arithmetic();
     assign prod = a * b;  // 9 * 4 = 36
     assign div  = a / b;  // 9 / 4 = 2 (integer division) 
     assign mod  = a % b;  // 9 % 4 = 1 (remainder)
-    
+
+    $display("Values: a: %b(%d), b: %b(%d), sum: %b(%d), diff: %b(%d), prod: %b(%0d), mod: %b(%d)", a, b, sum, diff, prod, div, mod);
+
 endmodule

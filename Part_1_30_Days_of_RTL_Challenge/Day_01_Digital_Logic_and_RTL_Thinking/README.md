@@ -1,6 +1,6 @@
 # Day 1 : Digital Logic and RTL Thinking
 
-Day 1 emphasizes the basic difference between software coding and hardware and the thnking process behind RTL Design and Verification.
+Day 1 emphasizes on the basic difference between software coding and hardware and the thnking process behind RTL Design and Verification.
 
 Software runs instructions sequentially in time - one after the other whereas Hardware executes everything in parallel.
 

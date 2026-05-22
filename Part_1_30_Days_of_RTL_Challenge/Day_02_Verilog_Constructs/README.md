@@ -26,14 +26,58 @@ endmodule
 ```
 ## Data Types in Verilog
 
-Verilog has mainly two data types - net and reg.
-Net data type is further divided into :
+Verilog has mainly two data types - 
+1. net datatype
+2. reg datatype
 
-- **Wire:**  It represents a physical connection between components. It must be driven by continuous assignments **(assign)** or outputs of other modules.
+**Wire** is the most commonly used Net datatype.
+
+### Wire 
+
+- It represents a physical connection between components. It must be driven by continuous assignments **(assign)** or outputs of other modules.
 - Default value of wire is Z (high impedance)
 
 ```verilog
 wire signal_a; //one-bit value as a single net
 wire [5:0] signal_a; //net as a vector of 6 bits
 ```
+
+Reg datatype is further divided into : 
+
+### Reg 
+
+- Stores a value until explicitly changed
+- Used in procedural blocks(always or initial)
+- Default value of reg is X
+
+```verilog
+reg reg_a; //single bit register
+reg [7:0] reg_a; // 8-bit register as a vector
+```
+### NOTE 
+Index is always [MSB:LSB] 
+
+### Integer 
+
+- Used in testbenches, **not synthesizable** in hardware
+- integers are general-purpose 32-bit register data 
+- default size is 32-bit 
+
+```verilog
+integer count; //32-bit 
+```
+### Real 
+
+- The real datatype is used to store floating-point numbers.
+- They are declared using the **real** keyword
+- The real value when assigned to any integer value are rounded off the nearest integer value 
+
+```verilog
+real pi = 3.14;
+integer a; 
+    
+initial a = pi; //a gets the value 3 
+```
+
+
 ##  To be updated
